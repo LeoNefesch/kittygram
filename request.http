@@ -2,7 +2,7 @@
 GET http://127.0.0.1:8000/cats/
 
 ###
-GET http://127.0.0.1:8000/cats/4/
+GET http://127.0.0.1:8000/cats/6/
 
 ###
 
@@ -50,7 +50,7 @@ Content-Type: application/json
 
 ###
 
-DELETE http://127.0.0.1:8000/cats/4/
+DELETE http://127.0.0.1:8000/cats/5/
 Content-Type: application/json
 
 ###
