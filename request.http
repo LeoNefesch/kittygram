@@ -1,0 +1,104 @@
+# Requests using REST Client
+GET http://127.0.0.1:8000/cats/
+
+###
+GET http://127.0.0.1:8000/hello/
+
+###
+
+POST http://127.0.0.1:8000/cats/
+Content-Type: application/json
+
+{
+    "name": "Pushok",
+    "color": "white",
+    "birth_year": 2022
+}
+
+###
+
+POST http://127.0.0.1:8000/cats/
+Content-Type: application/json
+
+{
+    "name": "Snezhok",
+    "color": "white",
+    "birth_year": 2022
+}
+
+###
+
+POST http://127.0.0.1:8000/cats/
+Content-Type: application/json
+
+{
+    "name": "Belok",
+    "color": "black",
+    "birth_year": 11.2022
+}
+
+###
+
+POST http://127.0.0.1:8000/cats/
+Content-Type: application/json
+
+{
+    "name": "Belok",
+    "color": "black",
+    "birth_year": 2022
+}
+
+###
+
+DELETE http://127.0.0.1:8000/cats/
+Content-Type: application/json
+
+{
+    "name": "Belok",
+    "color": "black",
+    "birth_year": 2022
+}
+
+###
+
+POST http://127.0.0.1:8000/hello/
+Content-Type: application/json
+
+{
+    "message": "Получены данные",
+    "data": "simple_data"
+}
+
+###
+
+POST http://127.0.0.1:8000/cats/
+Content-Type: application/json
+
+[
+    {
+        "name": "Стёпа",
+        "color": "белый",
+        "birth_year": 1971
+    },
+    {
+        "name": "Мурка",
+        "color": "рыжий",
+        "birth_year": 2010
+    },
+    {
+        "name": "Пух",
+        "color": "чёрный",
+        "birth_year": 2018
+    }
+]
+
+###
+
+PATCH http://127.0.0.1:8000/cats/6/
+Content-Type: application/json
+
+{
+    "color": "белый"
+}
+
+###
