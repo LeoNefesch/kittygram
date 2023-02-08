@@ -2,7 +2,7 @@
 GET http://127.0.0.1:8000/cats/
 
 ###
-GET http://127.0.0.1:8000/hello/
+GET http://127.0.0.1:8000/cats/3/
 
 ###
 
@@ -50,24 +50,8 @@ Content-Type: application/json
 
 ###
 
-DELETE http://127.0.0.1:8000/cats/
+DELETE http://127.0.0.1:8000/cats/4/
 Content-Type: application/json
-
-{
-    "name": "Belok",
-    "color": "black",
-    "birth_year": 2022
-}
-
-###
-
-POST http://127.0.0.1:8000/hello/
-Content-Type: application/json
-
-{
-    "message": "Получены данные",
-    "data": "simple_data"
-}
 
 ###
 
@@ -94,11 +78,11 @@ Content-Type: application/json
 
 ###
 
-PATCH http://127.0.0.1:8000/cats/6/
+PATCH http://127.0.0.1:8000/cats/3/
 Content-Type: application/json
 
 {
-    "color": "белый"
+    "color": "рыжий"
 }
 
 ###
