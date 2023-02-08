@@ -2,7 +2,7 @@
 GET http://127.0.0.1:8000/cats/
 
 ###
-GET http://127.0.0.1:8000/cats/3/
+GET http://127.0.0.1:8000/cats/4/
 
 ###
 
@@ -82,7 +82,7 @@ PATCH http://127.0.0.1:8000/cats/3/
 Content-Type: application/json
 
 {
-    "color": "рыжий"
+    "color": "black"
 }
 
 ###
